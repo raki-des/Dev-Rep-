@@ -1,0 +1,6 @@
+1. git clone repo
+2. git checkout -b feature/user-auth
+3. Code + git commit -m "Add JWT login"
+4. git push && create PR
+5. Merge → Triggers Azure Pipelines CI (#2)
+6. Deploy to AKS (#5) via GitOps
